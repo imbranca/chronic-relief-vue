@@ -2,8 +2,6 @@
   <div class="flex program__item w-full p-4 bg-white my-2 rounded-md flex-col" 
       :class="{ 'active': index === currentIndex }"
       :key="index"
-      @click="handleTap(index, $event)"
-      @touchend="handleTap(index, $event)"
       v-for="(week, index) in programWeeks">
       <!--Only for desktop-->
       <div class="program__header flex">
@@ -13,7 +11,9 @@
           <div class="program__title text-xl">{{ week.title }}</div>
           <div class="program__description text-base">{{ week.description }}</div>
         </div>
-        <div class="program__icon-wrapper w-20 flex ml-auto">
+        <div class="program__icon-wrapper w-20 flex ml-auto"
+        @click="handleTap(index, $event)"
+        @touchend="handleTap(index, $event)">
           <ChevronRight v-if="index !== currentIndex" class="my-auto ml-auto"/>
           <ChevronDown v-else class="my-auto ml-auto"/>
         </div>
