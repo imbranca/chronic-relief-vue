@@ -2,7 +2,7 @@
   <div class="flex program__item w-full p-4 bg-white my-2 rounded-md flex-col" 
       :class="{ 'active': index === currentIndex }"
       :key="index"
-      v-on:click="setCurrentIndex(index)"
+      @pointerup="setCurrentIndex(index)"
       v-for="(week, index) in programWeeks">
       <!--Only for desktop-->
       <div class="program__header flex">
@@ -162,6 +162,8 @@
 //   }];
 
   let currentIndex = ref(null);
+
+
   function setCurrentIndex(index){
     if(this.currentIndex != index){
       this.currentIndex = index;
