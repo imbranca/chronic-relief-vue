@@ -174,6 +174,11 @@
 </script>
 
 <style lang="scss">
+  div {
+    touch-action: manipulation; /* Prevents double-tap zoom, helps trigger touch/click */
+    -webkit-tap-highlight-color: transparent; /* Optional, removes blue flash */
+  }
+
   .program__item{
     border: solid 1px #e7e6e2;
   }
