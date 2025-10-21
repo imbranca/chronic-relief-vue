@@ -2,7 +2,8 @@
   <div class="flex program__item w-full p-4 bg-white my-2 rounded-md flex-col" 
       :class="{ 'active': index === currentIndex }"
       :key="index"
-      @pointerup="setCurrentIndex(index)"
+      @click="setCurrentIndex(index)"
+      @touchend.prevent="setCurrentIndex(index)"
       v-for="(week, index) in programWeeks">
       <!--Only for desktop-->
       <div class="program__header flex">
