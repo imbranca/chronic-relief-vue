@@ -282,5 +282,4 @@ button{
 .fitup__img{
   max-width: 250px;
 }
-
 </style>
