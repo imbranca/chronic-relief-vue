@@ -1,1 +1,10 @@
 @import 'tailwindcss';
+
+
+.max-w-1120px{
+  max-width: 1200px;
+}
+
+.max-w-1200px{
+  max-width: 1200px;
+}
