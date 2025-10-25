@@ -7,7 +7,7 @@
            <br/> Long Covid, CFS, and Post-Vaccine Syndrome recovery.
         </h1>
         <button class="mt-2 ml-5 relative hero__btn">
-          Book Your Free Consultation
+          Free Session
         </button>
         <div class="hero__inner-bg is--red-bg"></div>
         </div>
@@ -232,7 +232,7 @@ import Program from './Program.vue';
 
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .max-w-700px{
   max-width: 700px;
 }
