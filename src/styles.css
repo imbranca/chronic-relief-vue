@@ -1,5 +1,5 @@
 @import 'tailwindcss';
-
+@import "@egjs/flicking/dist/flicking.css";
 
 .max-w-1120px{
   max-width: 1200px;
@@ -8,3 +8,4 @@
 .max-w-1200px{
   max-width: 1200px;
 }
+

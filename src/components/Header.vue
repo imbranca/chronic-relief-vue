@@ -35,7 +35,7 @@
 import { ref } from 'vue';
 import { X } from 'lucide-vue-next';
 
-  const showMenuMobile = ref(true);
+  const showMenuMobile = ref(false);
 
 </script>
 
