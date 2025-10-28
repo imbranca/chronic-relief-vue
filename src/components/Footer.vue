@@ -14,7 +14,7 @@
         <Facebook :size="18" color="#ffffff"/>
       </div>
       <div class="footer__copyright mt-4">
-        <p class="footer-copyright text-xs text-white">Copyrights © <span class="copyright-year">2025</span>&nbsp;All Rights Reserved by Pain Canada. <br>All trademarks, trade names or logos mentioned or used herein are the property of their respective owners.</p>
+        <p class="footer-copyright text-xs text-white">Copyrights © <span class="copyright-year">2025</span>&nbsp;All Rights Reserved by Chronic Relief</p>
     </div>
     </div>
 
